@@ -32,16 +32,13 @@ section {
     margin-right: -12px;
 }
 
-/* .justify-content{
-    justify-content: space-between;
-} */
 .col-6 {
     width: 50%;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.col-12{
+.col-12 {
     width: 100%;
     padding-left: 12px;
     padding-right: 12px;
@@ -73,7 +70,6 @@ body {
 }
 
 .options {
-    /* padding: ; */
     border-radius: 50px;
     background: rgba(21, 19, 19, 1);
     display: flex;
@@ -132,23 +128,23 @@ span {
     color: white;
 }
 
-.card-2 {
-    /* position: absolute;
-    top: 50%;
-    width: 50%;
-    transform: translateY(-50%);
-    right: 0; */
-    margin-top: 80px;
-}
-
 .w-100 {
     width: 100%;
 }
 
 @media (min-width:992px) {
-    .col-lg-6{
+    .col-lg-6 {
         width: 50%;
         padding-right: 12px;
         padding-left: 12px;
+    }
+
+    .card-2 {
+        position: absolute;
+        top: 50%;
+        width: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        margin-top: 20px;
     }
 }
